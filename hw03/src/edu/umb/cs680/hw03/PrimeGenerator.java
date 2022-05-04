@@ -12,7 +12,8 @@ public class PrimeGenerator {
         if(from >= 1 && to > from){
             this.from = from;
             this.to = to;
-        }else{
+        }
+        else{
             throw new RuntimeException("Wrong input values: from=" + from + " to=" + to);
         }
     }
